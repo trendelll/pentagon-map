@@ -1,0 +1,1613 @@
+{
+  "generated_at": "2026-04-13T03:44:53Z",
+  "fiscal_year": 2025,
+  "total_obligations": 491592315206,
+  "total_contracts": 4489055,
+  "total_vendors": 47497,
+  "best_k": 5,
+  "silhouette_score": 0.1698,
+  "clusters": [
+    {
+      "id": 0,
+      "label": "mixed",
+      "color": "yellow",
+      "psc_count": 382,
+      "medoid_psc": "4310",
+      "medoid_description": "COMPRESSORS AND VACUUM PUMPS",
+      "example_pscs": [
+        "4310",
+        "R425",
+        "AC13"
+      ]
+    },
+    {
+      "id": 1,
+      "label": "moderate concentration",
+      "color": "yellow",
+      "psc_count": 327,
+      "medoid_psc": "Z2FD",
+      "medoid_description": "REPAIR OR ALTERATION OF DINING FACILITIES",
+      "example_pscs": [
+        "Z2FD",
+        "Q201",
+        "4220"
+      ]
+    },
+    {
+      "id": 2,
+      "label": "monopoly risk",
+      "color": "red",
+      "psc_count": 206,
+      "medoid_psc": "K099",
+      "medoid_description": "MODIFICATION OF EQUIPMENT- MISCELLANEOUS",
+      "example_pscs": [
+        "K099",
+        "1905",
+        "9130"
+      ]
+    },
+    {
+      "id": 3,
+      "label": "mixed",
+      "color": "yellow",
+      "psc_count": 445,
+      "medoid_psc": "5520",
+      "medoid_description": "MILLWORK",
+      "example_pscs": [
+        "5520",
+        "2420",
+        "G099"
+      ]
+    },
+    {
+      "id": 4,
+      "label": "monopoly risk",
+      "color": "red",
+      "psc_count": 302,
+      "medoid_psc": "L063",
+      "medoid_description": "TECHNICAL REPRESENTATIVE- ALARM, SIGNAL, AND SECURITY DETECTION SYSTEMS",
+      "example_pscs": [
+        "L063",
+        "1510",
+        "1410"
+      ]
+    }
+  ],
+  "capability_areas": [
+    {
+      "id": "mission_support",
+      "name": "Mission Support",
+      "icon": "gear",
+      "description": "logistics, base operations, professional services",
+      "total_obligations": 207310468663,
+      "contract_count": 3959931,
+      "unique_vendors": 39324,
+      "cluster": "moderate",
+      "cluster_label": "monopoly risk",
+      "why_fragile": "6% of Mission Support contracts are sole-sourced. AMERISOURCEBERGEN CORPORATION controls 3.6% of the market.",
+      "top_contractors": [
+        {
+          "id": "GTXTRMLFL9U7",
+          "name": "AMERISOURCEBERGEN CORPORATION",
+          "dollars": 7441500662,
+          "market_share_pct": 3.6,
+          "cross_category_breakdown": [
+            {
+              "category": "Mission Support",
+              "market_share_pct": 3.6,
+              "dollars": 7441500662
+            }
+          ]
+        },
+        {
+          "id": "ZE6ZM6NKSV43",
+          "name": "HUMANA GOVERNMENT BUSINESS INC",
+          "dollars": 6513706439,
+          "market_share_pct": 3.1,
+          "cross_category_breakdown": [
+            {
+              "category": "Mission Support",
+              "market_share_pct": 3.1,
+              "dollars": 6513706439
+            }
+          ]
+        },
+        {
+          "id": "EGAVSJTA2D81",
+          "name": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+          "dollars": 5229005259,
+          "market_share_pct": 2.5,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 61.6,
+              "dollars": 3757221118
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 21.1,
+              "dollars": 9416270989
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 11.1,
+              "dollars": 4985702516
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 7.9,
+              "dollars": 6831042406
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 6.5,
+              "dollars": 587497292
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1002053548
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 5.3,
+              "dollars": 506526143
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.5,
+              "dollars": 5229005259
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 2.0,
+              "dollars": 102527884
+            }
+          ]
+        },
+        {
+          "id": "NU2UC8MX6NK1",
+          "name": "THE BOEING COMPANY",
+          "dollars": 4516451159,
+          "market_share_pct": 2.2,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 15.4,
+              "dollars": 13377929571
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 8.0,
+              "dollars": 411595039
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 4.9,
+              "dollars": 2176734747
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 2.3,
+              "dollars": 207120128
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.2,
+              "dollars": 4516451159
+            }
+          ]
+        },
+        {
+          "id": "J7M9HPTGJ1S9",
+          "name": "TRIWEST HEALTHCARE ALLIANCE CORP",
+          "dollars": 3540417158,
+          "market_share_pct": 1.7,
+          "cross_category_breakdown": [
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.7,
+              "dollars": 3540417158
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aviation",
+      "name": "Aviation",
+      "icon": "plane",
+      "description": "fighter jets, helicopters, drones",
+      "total_obligations": 86946179419,
+      "contract_count": 175938,
+      "unique_vendors": 3158,
+      "cluster": "fragile",
+      "cluster_label": "extreme concentration",
+      "why_fragile": "28% of Aviation contracts are sole-sourced. LOCKHEED MARTIN CORP controls 46.5% of the market.",
+      "top_contractors": [
+        {
+          "id": "ZFN2JJXBLZT3",
+          "name": "LOCKHEED MARTIN CORP",
+          "dollars": 40407096028,
+          "market_share_pct": 46.5,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 46.5,
+              "dollars": 40407096028
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 31.3,
+              "dollars": 13992920518
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 21.3,
+              "dollars": 1916408395
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 19.6,
+              "dollars": 1193390365
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 14.6,
+              "dollars": 750994098
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.6,
+              "dollars": 3380304051
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 1.6,
+              "dollars": 725053209
+            }
+          ]
+        },
+        {
+          "id": "NU2UC8MX6NK1",
+          "name": "THE BOEING COMPANY",
+          "dollars": 13377929571,
+          "market_share_pct": 15.4,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 15.4,
+              "dollars": 13377929571
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 8.0,
+              "dollars": 411595039
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 4.9,
+              "dollars": 2176734747
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 2.3,
+              "dollars": 207120128
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.2,
+              "dollars": 4516451159
+            }
+          ]
+        },
+        {
+          "id": "EGAVSJTA2D81",
+          "name": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+          "dollars": 6831042406,
+          "market_share_pct": 7.9,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 61.6,
+              "dollars": 3757221118
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 21.1,
+              "dollars": 9416270989
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 11.1,
+              "dollars": 4985702516
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 7.9,
+              "dollars": 6831042406
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 6.5,
+              "dollars": 587497292
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1002053548
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 5.3,
+              "dollars": 506526143
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.5,
+              "dollars": 5229005259
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 2.0,
+              "dollars": 102527884
+            }
+          ]
+        },
+        {
+          "id": "JRZ1WHXAKBM3",
+          "name": "GENERAL ELECTRIC COMPANY",
+          "dollars": 2631903825,
+          "market_share_pct": 3.0,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 3.0,
+              "dollars": 2631903825
+            }
+          ]
+        },
+        {
+          "id": "N1PWVLN6F4U1",
+          "name": "SIERRA NEVADA COMPANY, LLC",
+          "dollars": 1554877840,
+          "market_share_pct": 1.8,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 1.8,
+              "dollars": 1554877840
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "maritime",
+      "name": "Maritime",
+      "icon": "ship",
+      "description": "surface combatants, submarines, support vessels",
+      "total_obligations": 60052805176,
+      "contract_count": 49404,
+      "unique_vendors": 2403,
+      "cluster": "fragile",
+      "cluster_label": "extreme concentration",
+      "why_fragile": "14% of Maritime contracts are sole-sourced. ELECTRIC BOAT CORPORATION controls 35.4% of the market.",
+      "top_contractors": [
+        {
+          "id": "E7BEKJ4V9528",
+          "name": "ELECTRIC BOAT CORPORATION",
+          "dollars": 21269645038,
+          "market_share_pct": 35.4,
+          "cross_category_breakdown": [
+            {
+              "category": "Maritime",
+              "market_share_pct": 35.4,
+              "dollars": 21269645038
+            }
+          ]
+        },
+        {
+          "id": "F9SDJAZFTLG6",
+          "name": "HUNTINGTON INGALLS INDUSTRIES, INC",
+          "dollars": 9056853856,
+          "market_share_pct": 15.1,
+          "cross_category_breakdown": [
+            {
+              "category": "Maritime",
+              "market_share_pct": 15.1,
+              "dollars": 9056853856
+            }
+          ]
+        },
+        {
+          "id": "GJMSFBCNMSK3",
+          "name": "ATLANTIC DIVING SUPPLY, INC.",
+          "dollars": 5262020257,
+          "market_share_pct": 8.8,
+          "cross_category_breakdown": [
+            {
+              "category": "Maritime",
+              "market_share_pct": 8.8,
+              "dollars": 5262020257
+            }
+          ]
+        },
+        {
+          "id": "FAZSFFE6CST9",
+          "name": "WICO LIMITED",
+          "dollars": 3157460547,
+          "market_share_pct": 5.3,
+          "cross_category_breakdown": [
+            {
+              "category": "Maritime",
+              "market_share_pct": 5.3,
+              "dollars": 3157460547
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 4.5,
+              "dollars": 2016322649
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 1.9,
+              "dollars": 336494124
+            }
+          ]
+        },
+        {
+          "id": "QYLMXH4B2KX8",
+          "name": "BECHTEL GROUP, INC.",
+          "dollars": 2137393774,
+          "market_share_pct": 3.6,
+          "cross_category_breakdown": [
+            {
+              "category": "Maritime",
+              "market_share_pct": 3.6,
+              "dollars": 2137393774
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c4i",
+      "name": "C4I",
+      "icon": "satellite",
+      "description": "communications, intelligence, cyber, radar",
+      "total_obligations": 45046509691,
+      "contract_count": 199592,
+      "unique_vendors": 7531,
+      "cluster": "moderate",
+      "cluster_label": "monopoly risk",
+      "why_fragile": "15% of C4I contracts are sole-sourced. ROCKWELL COLLINS AUSTRALIA PTY LIMITED controls 11.1% of the market.",
+      "top_contractors": [
+        {
+          "id": "EGAVSJTA2D81",
+          "name": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+          "dollars": 4985702516,
+          "market_share_pct": 11.1,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 61.6,
+              "dollars": 3757221118
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 21.1,
+              "dollars": 9416270989
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 11.1,
+              "dollars": 4985702516
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 7.9,
+              "dollars": 6831042406
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 6.5,
+              "dollars": 587497292
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1002053548
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 5.3,
+              "dollars": 506526143
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.5,
+              "dollars": 5229005259
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 2.0,
+              "dollars": 102527884
+            }
+          ]
+        },
+        {
+          "id": "SJULQDJ8NZU7",
+          "name": "L3HARRIS TECHNOLOGIES, INC",
+          "dollars": 2731851866,
+          "market_share_pct": 6.1,
+          "cross_category_breakdown": [
+            {
+              "category": "C4I",
+              "market_share_pct": 6.1,
+              "dollars": 2731851866
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 3.6,
+              "dollars": 182901631
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 1.1,
+              "dollars": 946066806
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 1.0,
+              "dollars": 171965781
+            }
+          ]
+        },
+        {
+          "id": "NKVZLJL93QT6",
+          "name": "NORTHROP GRUMMAN CORPORATION",
+          "dollars": 2207723059,
+          "market_share_pct": 4.9,
+          "cross_category_breakdown": [
+            {
+              "category": "Nuclear",
+              "market_share_pct": 17.2,
+              "dollars": 1547089376
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 15.3,
+              "dollars": 786502023
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 4.9,
+              "dollars": 2207723059
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 3.1,
+              "dollars": 1393017459
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 2.0,
+              "dollars": 119146556
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 1.7,
+              "dollars": 1458928024
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.3,
+              "dollars": 2769440357
+            }
+          ]
+        },
+        {
+          "id": "ZL41ERXMPAR3",
+          "name": "LEIDOS HOLDINGS, INC.",
+          "dollars": 2074023147,
+          "market_share_pct": 4.6,
+          "cross_category_breakdown": [
+            {
+              "category": "C4I",
+              "market_share_pct": 4.6,
+              "dollars": 2074023147
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 2.5,
+              "dollars": 239231582
+            }
+          ]
+        },
+        {
+          "id": "QSRTXLFKV857",
+          "name": "CACI INTERNATIONAL INC",
+          "dollars": 852079536,
+          "market_share_pct": 1.9,
+          "cross_category_breakdown": [
+            {
+              "category": "C4I",
+              "market_share_pct": 1.9,
+              "dollars": 852079536
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.0,
+              "dollars": 1972749296
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 1.0,
+              "dollars": 92252563
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missiles_munitions",
+      "name": "Missiles & Munitions",
+      "icon": "missile",
+      "description": "guided missiles, bombs, ammunition",
+      "total_obligations": 44728702584,
+      "contract_count": 14729,
+      "unique_vendors": 1516,
+      "cluster": "fragile",
+      "cluster_label": "extreme concentration",
+      "why_fragile": "38% of Missiles & Munitions contracts are sole-sourced. LOCKHEED MARTIN CORP controls 31.3% of the market.",
+      "top_contractors": [
+        {
+          "id": "ZFN2JJXBLZT3",
+          "name": "LOCKHEED MARTIN CORP",
+          "dollars": 13992920518,
+          "market_share_pct": 31.3,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 46.5,
+              "dollars": 40407096028
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 31.3,
+              "dollars": 13992920518
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 21.3,
+              "dollars": 1916408395
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 19.6,
+              "dollars": 1193390365
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 14.6,
+              "dollars": 750994098
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.6,
+              "dollars": 3380304051
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 1.6,
+              "dollars": 725053209
+            }
+          ]
+        },
+        {
+          "id": "EGAVSJTA2D81",
+          "name": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+          "dollars": 9416270989,
+          "market_share_pct": 21.1,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 61.6,
+              "dollars": 3757221118
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 21.1,
+              "dollars": 9416270989
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 11.1,
+              "dollars": 4985702516
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 7.9,
+              "dollars": 6831042406
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 6.5,
+              "dollars": 587497292
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1002053548
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 5.3,
+              "dollars": 506526143
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.5,
+              "dollars": 5229005259
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 2.0,
+              "dollars": 102527884
+            }
+          ]
+        },
+        {
+          "id": "NU2UC8MX6NK1",
+          "name": "THE BOEING COMPANY",
+          "dollars": 2176734747,
+          "market_share_pct": 4.9,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 15.4,
+              "dollars": 13377929571
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 8.0,
+              "dollars": 411595039
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 4.9,
+              "dollars": 2176734747
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 2.3,
+              "dollars": 207120128
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.2,
+              "dollars": 4516451159
+            }
+          ]
+        },
+        {
+          "id": "FAZSFFE6CST9",
+          "name": "WICO LIMITED",
+          "dollars": 2016322649,
+          "market_share_pct": 4.5,
+          "cross_category_breakdown": [
+            {
+              "category": "Maritime",
+              "market_share_pct": 5.3,
+              "dollars": 3157460547
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 4.5,
+              "dollars": 2016322649
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 1.9,
+              "dollars": 336494124
+            }
+          ]
+        },
+        {
+          "id": "KMEVRAKJVBD3",
+          "name": "LOCKHEED MARTIN CORPORATION",
+          "dollars": 1906179315,
+          "market_share_pct": 4.3,
+          "cross_category_breakdown": [
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 4.3,
+              "dollars": 1906179315
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ground",
+      "name": "Ground",
+      "icon": "tank",
+      "description": "armored vehicles, artillery, small arms",
+      "total_obligations": 17734763274,
+      "contract_count": 49628,
+      "unique_vendors": 2619,
+      "cluster": "moderate",
+      "cluster_label": "monopoly risk",
+      "why_fragile": "10% of Ground contracts are sole-sourced. BALL CORPORATION controls 16.7% of the market.",
+      "top_contractors": [
+        {
+          "id": "UVUTB62B9AV3",
+          "name": "BALL CORPORATION",
+          "dollars": 2969614358,
+          "market_share_pct": 16.7,
+          "cross_category_breakdown": [
+            {
+              "category": "Ground",
+              "market_share_pct": 16.7,
+              "dollars": 2969614358
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 1.9,
+              "dollars": 837899972
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 1.6,
+              "dollars": 716855082
+            },
+            {
+              "category": "Maritime",
+              "market_share_pct": 1.0,
+              "dollars": 571297660
+            }
+          ]
+        },
+        {
+          "id": "GVX8NG7QE7W9",
+          "name": "OSHKOSH CORPORATION",
+          "dollars": 1286652134,
+          "market_share_pct": 7.3,
+          "cross_category_breakdown": [
+            {
+              "category": "Ground",
+              "market_share_pct": 7.3,
+              "dollars": 1286652134
+            }
+          ]
+        },
+        {
+          "id": "KBY6YBAZWYM6",
+          "name": "AM GENERAL LLC",
+          "dollars": 1082382979,
+          "market_share_pct": 6.1,
+          "cross_category_breakdown": [
+            {
+              "category": "Ground",
+              "market_share_pct": 6.1,
+              "dollars": 1082382979
+            }
+          ]
+        },
+        {
+          "id": "HAWKSQF848W7",
+          "name": "GENERAL DYNAMICS LAND SYSTEMS INC.",
+          "dollars": 1010508497,
+          "market_share_pct": 5.7,
+          "cross_category_breakdown": [
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1010508497
+            }
+          ]
+        },
+        {
+          "id": "EGAVSJTA2D81",
+          "name": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+          "dollars": 1002053548,
+          "market_share_pct": 5.7,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 61.6,
+              "dollars": 3757221118
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 21.1,
+              "dollars": 9416270989
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 11.1,
+              "dollars": 4985702516
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 7.9,
+              "dollars": 6831042406
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 6.5,
+              "dollars": 587497292
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1002053548
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 5.3,
+              "dollars": 506526143
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.5,
+              "dollars": 5229005259
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 2.0,
+              "dollars": 102527884
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "other_general_dod",
+      "name": "Other/General DoD",
+      "icon": "flag",
+      "description": "unclassified catch-all and unmapped PSC codes",
+      "total_obligations": 9533634533,
+      "contract_count": 30429,
+      "unique_vendors": 2618,
+      "cluster": "moderate",
+      "cluster_label": "monopoly risk",
+      "why_fragile": "16% of Other/General DoD contracts are sole-sourced. FRANCISCO PARTNERS MANAGEMENT, L.P. controls 14.8% of the market.",
+      "top_contractors": [
+        {
+          "id": "JGSNSER23GR6",
+          "name": "FRANCISCO PARTNERS MANAGEMENT, L.P.",
+          "dollars": 1411944998,
+          "market_share_pct": 14.8,
+          "cross_category_breakdown": [
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 14.8,
+              "dollars": 1411944998
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 1.4,
+              "dollars": 645587543
+            }
+          ]
+        },
+        {
+          "id": "DT8KJHZXVJH5",
+          "name": "CARAHSOFT TECHNOLOGY CORP",
+          "dollars": 715855890,
+          "market_share_pct": 7.5,
+          "cross_category_breakdown": [
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 7.5,
+              "dollars": 715855890
+            }
+          ]
+        },
+        {
+          "id": "EGAVSJTA2D81",
+          "name": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+          "dollars": 506526143,
+          "market_share_pct": 5.3,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 61.6,
+              "dollars": 3757221118
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 21.1,
+              "dollars": 9416270989
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 11.1,
+              "dollars": 4985702516
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 7.9,
+              "dollars": 6831042406
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 6.5,
+              "dollars": 587497292
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1002053548
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 5.3,
+              "dollars": 506526143
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.5,
+              "dollars": 5229005259
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 2.0,
+              "dollars": 102527884
+            }
+          ]
+        },
+        {
+          "id": "XK11LLUL61A7",
+          "name": "NEW TECH SOLUTIONS, INC.",
+          "dollars": 240152143,
+          "market_share_pct": 2.5,
+          "cross_category_breakdown": [
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 2.5,
+              "dollars": 240152143
+            }
+          ]
+        },
+        {
+          "id": "ZL41ERXMPAR3",
+          "name": "LEIDOS HOLDINGS, INC.",
+          "dollars": 239231582,
+          "market_share_pct": 2.5,
+          "cross_category_breakdown": [
+            {
+              "category": "C4I",
+              "market_share_pct": 4.6,
+              "dollars": 2074023147
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 2.5,
+              "dollars": 239231582
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nuclear",
+      "name": "Nuclear",
+      "icon": "atom",
+      "description": "nuclear warheads, reactors, ICBM support",
+      "total_obligations": 8989572075,
+      "contract_count": 3509,
+      "unique_vendors": 455,
+      "cluster": "moderate",
+      "cluster_label": "monopoly risk",
+      "why_fragile": "38% of Nuclear contracts are sole-sourced. LOCKHEED MARTIN CORP controls 21.3% of the market.",
+      "top_contractors": [
+        {
+          "id": "ZFN2JJXBLZT3",
+          "name": "LOCKHEED MARTIN CORP",
+          "dollars": 1916408395,
+          "market_share_pct": 21.3,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 46.5,
+              "dollars": 40407096028
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 31.3,
+              "dollars": 13992920518
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 21.3,
+              "dollars": 1916408395
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 19.6,
+              "dollars": 1193390365
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 14.6,
+              "dollars": 750994098
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.6,
+              "dollars": 3380304051
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 1.6,
+              "dollars": 725053209
+            }
+          ]
+        },
+        {
+          "id": "MFA3GM9L8X58",
+          "name": "FLUOR CORPORATION",
+          "dollars": 1826756847,
+          "market_share_pct": 20.3,
+          "cross_category_breakdown": [
+            {
+              "category": "Nuclear",
+              "market_share_pct": 20.3,
+              "dollars": 1826756847
+            }
+          ]
+        },
+        {
+          "id": "NKVZLJL93QT6",
+          "name": "NORTHROP GRUMMAN CORPORATION",
+          "dollars": 1547089376,
+          "market_share_pct": 17.2,
+          "cross_category_breakdown": [
+            {
+              "category": "Nuclear",
+              "market_share_pct": 17.2,
+              "dollars": 1547089376
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 15.3,
+              "dollars": 786502023
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 4.9,
+              "dollars": 2207723059
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 3.1,
+              "dollars": 1393017459
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 2.0,
+              "dollars": 119146556
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 1.7,
+              "dollars": 1458928024
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.3,
+              "dollars": 2769440357
+            }
+          ]
+        },
+        {
+          "id": "EGAVSJTA2D81",
+          "name": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+          "dollars": 587497292,
+          "market_share_pct": 6.5,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 61.6,
+              "dollars": 3757221118
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 21.1,
+              "dollars": 9416270989
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 11.1,
+              "dollars": 4985702516
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 7.9,
+              "dollars": 6831042406
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 6.5,
+              "dollars": 587497292
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1002053548
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 5.3,
+              "dollars": 506526143
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.5,
+              "dollars": 5229005259
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 2.0,
+              "dollars": 102527884
+            }
+          ]
+        },
+        {
+          "id": "KFN4YJH98D51",
+          "name": "LOCKHEED MARTIN CORP",
+          "dollars": 353023644,
+          "market_share_pct": 3.9,
+          "cross_category_breakdown": [
+            {
+              "category": "Nuclear",
+              "market_share_pct": 3.9,
+              "dollars": 353023644
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "missile_defense",
+      "name": "Missile Defense",
+      "icon": "shield",
+      "description": "THAAD, Patriot, Aegis BMD, GMD",
+      "total_obligations": 6102377090,
+      "contract_count": 1580,
+      "unique_vendors": 182,
+      "cluster": "moderate",
+      "cluster_label": "monopoly risk",
+      "why_fragile": "53% of Missile Defense contracts are sole-sourced. ROCKWELL COLLINS AUSTRALIA PTY LIMITED controls 61.6% of the market.",
+      "top_contractors": [
+        {
+          "id": "EGAVSJTA2D81",
+          "name": "ROCKWELL COLLINS AUSTRALIA PTY LIMITED",
+          "dollars": 3757221118,
+          "market_share_pct": 61.6,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 61.6,
+              "dollars": 3757221118
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 21.1,
+              "dollars": 9416270989
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 11.1,
+              "dollars": 4985702516
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 7.9,
+              "dollars": 6831042406
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 6.5,
+              "dollars": 587497292
+            },
+            {
+              "category": "Ground",
+              "market_share_pct": 5.7,
+              "dollars": 1002053548
+            },
+            {
+              "category": "Other/General DoD",
+              "market_share_pct": 5.3,
+              "dollars": 506526143
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.5,
+              "dollars": 5229005259
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 2.0,
+              "dollars": 102527884
+            }
+          ]
+        },
+        {
+          "id": "ZFN2JJXBLZT3",
+          "name": "LOCKHEED MARTIN CORP",
+          "dollars": 1193390365,
+          "market_share_pct": 19.6,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 46.5,
+              "dollars": 40407096028
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 31.3,
+              "dollars": 13992920518
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 21.3,
+              "dollars": 1916408395
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 19.6,
+              "dollars": 1193390365
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 14.6,
+              "dollars": 750994098
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.6,
+              "dollars": 3380304051
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 1.6,
+              "dollars": 725053209
+            }
+          ]
+        },
+        {
+          "id": "FFCMDLMXRK49",
+          "name": "PARSONS CORPORATION",
+          "dollars": 191656592,
+          "market_share_pct": 3.1,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 3.1,
+              "dollars": 191656592
+            }
+          ]
+        },
+        {
+          "id": "NKVZLJL93QT6",
+          "name": "NORTHROP GRUMMAN CORPORATION",
+          "dollars": 119146556,
+          "market_share_pct": 2.0,
+          "cross_category_breakdown": [
+            {
+              "category": "Nuclear",
+              "market_share_pct": 17.2,
+              "dollars": 1547089376
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 15.3,
+              "dollars": 786502023
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 4.9,
+              "dollars": 2207723059
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 3.1,
+              "dollars": 1393017459
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 2.0,
+              "dollars": 119146556
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 1.7,
+              "dollars": 1458928024
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.3,
+              "dollars": 2769440357
+            }
+          ]
+        },
+        {
+          "id": "DGZWLYKTUN57",
+          "name": "BLACK CONSTRUCTION-TUTOR PERINI JV",
+          "dollars": 116365697,
+          "market_share_pct": 1.9,
+          "cross_category_breakdown": [
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 1.9,
+              "dollars": 116365697
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "name": "Space",
+      "icon": "rocket",
+      "description": "satellites, launch vehicles, space situational awareness",
+      "total_obligations": 5147302702,
+      "contract_count": 4315,
+      "unique_vendors": 657,
+      "cluster": "moderate",
+      "cluster_label": "monopoly risk",
+      "why_fragile": "23% of Space contracts are sole-sourced. SPACE EXPLORATION TECHNOLOGIES CORP. controls 25.7% of the market.",
+      "top_contractors": [
+        {
+          "id": "C6M7C2FLKER5",
+          "name": "SPACE EXPLORATION TECHNOLOGIES CORP.",
+          "dollars": 1322924594,
+          "market_share_pct": 25.7,
+          "cross_category_breakdown": [
+            {
+              "category": "Space",
+              "market_share_pct": 25.7,
+              "dollars": 1322924594
+            }
+          ]
+        },
+        {
+          "id": "NKVZLJL93QT6",
+          "name": "NORTHROP GRUMMAN CORPORATION",
+          "dollars": 786502023,
+          "market_share_pct": 15.3,
+          "cross_category_breakdown": [
+            {
+              "category": "Nuclear",
+              "market_share_pct": 17.2,
+              "dollars": 1547089376
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 15.3,
+              "dollars": 786502023
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 4.9,
+              "dollars": 2207723059
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 3.1,
+              "dollars": 1393017459
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 2.0,
+              "dollars": 119146556
+            },
+            {
+              "category": "Aviation",
+              "market_share_pct": 1.7,
+              "dollars": 1458928024
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.3,
+              "dollars": 2769440357
+            }
+          ]
+        },
+        {
+          "id": "ZFN2JJXBLZT3",
+          "name": "LOCKHEED MARTIN CORP",
+          "dollars": 750994098,
+          "market_share_pct": 14.6,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 46.5,
+              "dollars": 40407096028
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 31.3,
+              "dollars": 13992920518
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 21.3,
+              "dollars": 1916408395
+            },
+            {
+              "category": "Missile Defense",
+              "market_share_pct": 19.6,
+              "dollars": 1193390365
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 14.6,
+              "dollars": 750994098
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 1.6,
+              "dollars": 3380304051
+            },
+            {
+              "category": "C4I",
+              "market_share_pct": 1.6,
+              "dollars": 725053209
+            }
+          ]
+        },
+        {
+          "id": "MRQAVEBRXED5",
+          "name": "UNITED LAUNCH ALLIANCE, L.L.C",
+          "dollars": 616202158,
+          "market_share_pct": 12.0,
+          "cross_category_breakdown": [
+            {
+              "category": "Space",
+              "market_share_pct": 12.0,
+              "dollars": 616202158
+            }
+          ]
+        },
+        {
+          "id": "NU2UC8MX6NK1",
+          "name": "THE BOEING COMPANY",
+          "dollars": 411595039,
+          "market_share_pct": 8.0,
+          "cross_category_breakdown": [
+            {
+              "category": "Aviation",
+              "market_share_pct": 15.4,
+              "dollars": 13377929571
+            },
+            {
+              "category": "Space",
+              "market_share_pct": 8.0,
+              "dollars": 411595039
+            },
+            {
+              "category": "Missiles & Munitions",
+              "market_share_pct": 4.9,
+              "dollars": 2176734747
+            },
+            {
+              "category": "Nuclear",
+              "market_share_pct": 2.3,
+              "dollars": 207120128
+            },
+            {
+              "category": "Mission Support",
+              "market_share_pct": 2.2,
+              "dollars": 4516451159
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
