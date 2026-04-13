@@ -21,11 +21,12 @@ src/
 │   └── PercentageBarChart.tsx # Visualizes market share dominance
 └── lib/
     └── data.ts           # TypeScript interfaces for cluster data
+```
+    
+    
 
     
-    
-    
-    Key Components and Data Flow
+## Key Components and Data Flow
 1. The Data Interface (lib/data.ts)
 
 Specific TypeScript interfaces match the output of the PAM (Partitioning Around Medoids) script. This ensures that if the clustering logic changes, such as modifying the k-value, the UI remains stable.
